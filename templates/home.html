@@ -6,5 +6,12 @@
 
 {% block content %}
     <!--page content-->
-    <h1>Home Page</h1>
+    <h1>South Korean Won Conversion</h1>
+
+<form action = '/'>
+  USD to Dong:<br>
+  <input type="text" name="Won"><br>
+   <input type="submit" value="Submit">
+</form>
+ <p>{{ responseFromServer }}</p>
 {% endblock %}

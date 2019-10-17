@@ -6,10 +6,11 @@
 
 {% block content %}
     <!--page content-->
-    <h1>Page 2</h1>
-    <form>
-      USD to Rupee:<br>
-      <input type="text" name="Rupee"><br>
-       <input type="submit" value="Submit">
-    </form>
+    <h1>Indian Rupee Conversion</h1>
+<form action = '/p2'>
+  USD to Indian Rupee:<br>
+  <input type="text" name="Rupee"><br>
+   <input type="submit" value="Submit">
+</form>
+ <p>{{ responseFromServer }} </p>
 {% endblock %}
