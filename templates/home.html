@@ -6,10 +6,10 @@
 
 {% block content %}
     <!--page content-->
-    <h1>South Korean Won Conversion</h1>
- <img src= "Images/tajmahal.jpg" alt= "tajmahal">
-<form action = '/'>
-  USD to Dong:<br>
+    <h1 class = "headd">South Korean Won Conversion</h1>
+     <img src= "{{url_for('static', filename='korea.jpg')}}" alt= "korea" id = "korea">
+<form action = '/' >
+  USD to Won:<br class = "headd">
   <input type="text" name="Won"><br>
    <input type="submit" value="Submit">
 </form>
